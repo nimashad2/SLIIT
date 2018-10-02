@@ -120,7 +120,7 @@ namespace Google.Apis.YouTube.Samples
             });
 
             var req = youtubeService.CommentThreads.List("snippet");
-            req.VideoId = "XCgk50WY2nc";
+            req.VideoId = "XCgk50WY2nc"; //-- youtube video id
             req.TextFormat = CommentThreadsResource.ListRequest.TextFormatEnum.PlainText;
             var res = req.Execute();
 
