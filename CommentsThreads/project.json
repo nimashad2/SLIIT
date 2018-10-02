@@ -1,0 +1,45 @@
+{
+    "version": "1.0.0-*",
+    "description": "CommentsThreads Console Application",
+    "authors": [ "Dasun-PC" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+    },
+
+    "commands": {
+        "CommentsThreads": "CommentsThreads"
+    },
+
+    "frameworks": {
+        "dnx451": {
+            "dependencies": {
+                "Google.Apis.Auth": "1.0.0-*",
+                "Google.Apis.Auth.PlatformServices": "1.0.0-*",
+                "Google.Apis.Core": "1.0.0-*",
+                "Google.Apis": "1.0.0-*",
+                "Google.Apis.PlatformServices": "1.0.0-*",
+                "log4net": "1.0.0-*",
+                "Microsoft.Threading.Tasks": "1.0.0-*",
+                "Microsoft.Threading.Tasks.Extensions.Desktop": "1.0.0-*",
+                "Microsoft.Threading.Tasks.Extensions": "1.0.0-*",
+                "Newtonsoft.Json": "1.0.0-*",
+                "System.Net.Http.Extensions": "1.0.0-*",
+                "System.Net.Http.Primitives": "1.0.0-*",
+                "Zlib.Portable": "1.0.0-*",
+                "Google.Apis.YouTube.v3": "1.0.0-*"
+            }
+        },
+        "dnxcore50": {
+            "dependencies": {
+                "System.Collections": "4.0.10-beta-23019",
+                "System.Console": "4.0.0-beta-23019",
+                "System.Linq": "4.0.0-beta-23019",
+                "System.Threading": "4.0.10-beta-23019",
+                "Microsoft.CSharp": "4.0.0-beta-23019"
+            }
+        }
+    }
+}

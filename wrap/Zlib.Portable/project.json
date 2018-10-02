@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "dnx451": {
+      "bin": {
+        "assembly": "../../Google.Apis.YouTube.Samples.Search/bin/Debug/Zlib.Portable.dll"
+      }
+    }
+  }
+}
